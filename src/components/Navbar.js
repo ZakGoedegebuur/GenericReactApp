@@ -5,8 +5,7 @@ import data from "../data/nav-elements.js"
 function NavElement(props) {
 
   let classes = "nav-element";
-  classes += props.page == props.index ? " active" : "";
-  console.log(classes);
+  classes += props.page === props.index ? " active" : "";
 
   return (
      <button onClick={() => props.setPage(props.index)} className={classes} key={props.name}>{props.name.toUpperCase()}</button> 
