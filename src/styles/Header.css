@@ -11,7 +11,8 @@
 .Header .logo {
     font-size: 2.2rem;
     margin: 0rem;
-    padding: 1rem 1.4rem;
+    margin-bottom: 0.2rem;
+    padding: 0rem 1.4rem;
 }
 
 .Header .logo:hover {

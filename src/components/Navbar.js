@@ -4,14 +4,14 @@ import data from "../data/nav-elements.js"
 
 function navElement(props) {
     return (
-       <a className="nav-element-inactive" href={props.link} key={props.name}>{props.name.toUpperCase()}</a> 
+       <button className="nav-element" key={props.name}>{props.name.toUpperCase()}</button> 
     )
 }
 
 export default function Navbar() {
     return (
         <div className="Navbar">
-            {data.navElements.map(navElement)}
+            {data.pages.map(navElement)}
         </div>
     )
 }

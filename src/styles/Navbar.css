@@ -7,16 +7,19 @@
     min-height: 4rem;
 }
 
-.Navbar .nav-element-inactive {
+.Navbar .nav-element {
     text-decoration: none;
+    background: none;
+    border: none;
+    border-bottom: 0.2rem solid transparent;
+    border-top: 0.2rem solid transparent;
     color: rgb(139, 158, 176);
     font-size: 1.8rem;
     margin: 0rem 1rem;
 }
 
-.Navbar .nav-element-inactive:hover,
-.Navbar .nav-element-active {
-    margin-top: 0.2rem;
+.Navbar .nav-element:hover,
+.Navbar .nav-element .active {
     color: rgb(209, 230, 248);
     border-bottom: 0.2rem solid rgb(139, 158, 176);
     transition: all 0.1s;
