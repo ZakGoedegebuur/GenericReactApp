@@ -16,13 +16,21 @@
     color: rgb(139, 158, 176);
     font-size: 1.8rem;
     margin: 0rem 1rem;
+    padding: 0rem;
+    transition: all 0.1s;
+}
+
+.Navbar .active {
+  color: rgb(139, 158, 176);
+  border-bottom: 0.2rem solid rgb(139, 158, 176);
+  transition: all 0.1s;
 }
 
 .Navbar .nav-element:hover,
-.Navbar .nav-element .active {
-    color: rgb(209, 230, 248);
-    border-bottom: 0.2rem solid rgb(139, 158, 176);
-    transition: all 0.1s;
+.Navbar .active:hover {
+  color: rgb(209, 230, 248);
+  border-bottom: 0.2rem solid rgb(139, 158, 176);
+  transition: all 0.1s;
 }
 
 .Navbar .nav-element:hover {

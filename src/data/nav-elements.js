@@ -1,7 +1,7 @@
 const pageData = { pages: [
-    { name: "Maps", link: "https://www.google.co.uk/maps"},
-    { name: "Google", link: "https://www.google.co.uk" },
-    { name: "ABOUT", link: "https://www.google.co.uk" },
+    { name: "MAPS", data: "maps lorem ipsum dipsum mipsum gypsum wipsum"},
+    { name: "GOOGLE", data: "google lorem ipsum dipsum mipsum gypsum wipsum" },
+    { name: "ABOUT", data: "about lorem ipsum dipsum mipsum gypsum wipsum" },
 ]};
 
 export default pageData;
