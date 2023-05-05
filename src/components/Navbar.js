@@ -4,7 +4,7 @@ import data from "../data/nav-elements.js"
 
 function navElement(props) {
     return (
-       <a className="nav-element" href={props.link} key={props.name}>{props.name}</a> 
+       <a className="nav-element-inactive" href={props.link} key={props.name}>{props.name.toUpperCase()}</a> 
     )
 }
 
