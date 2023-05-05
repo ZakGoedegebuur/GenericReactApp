@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/GenericReactApp/static/css/main.12b2ea38.css",
+    "main.js": "/GenericReactApp/static/js/main.5a559c24.js",
+    "static/js/787.afce2aef.chunk.js": "/GenericReactApp/static/js/787.afce2aef.chunk.js",
+    "static/media/watchtower.jpg": "/GenericReactApp/static/media/watchtower.49f446ba5b75fd4e8d92.jpg",
+    "index.html": "/GenericReactApp/index.html",
+    "main.12b2ea38.css.map": "/GenericReactApp/static/css/main.12b2ea38.css.map",
+    "main.5a559c24.js.map": "/GenericReactApp/static/js/main.5a559c24.js.map",
+    "787.afce2aef.chunk.js.map": "/GenericReactApp/static/js/787.afce2aef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12b2ea38.css",
+    "static/js/main.5a559c24.js"
+  ]
+}
