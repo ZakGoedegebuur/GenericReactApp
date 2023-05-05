@@ -1,6 +1,7 @@
-import Header from './components/Header.js';
-import Page from './components/Page.js';
+import Sidebar from './components/Sidebar.js';
 import { useState } from 'react';
+import "./styles/App.css"
+import Body from './components/Body.js';
 
 function App() {
   const [page, setPage] = useState(0);
@@ -8,8 +9,8 @@ function App() {
   console.log(page);
   return (
     <div className="App">
-      <Header setPage={setPage} page={page}/>
-      <Page page={page}/>
+      <Sidebar setPage={setPage} page={page}/>
+      <Body setPage={setPage} page={page}/>
     </div>
   );
 }

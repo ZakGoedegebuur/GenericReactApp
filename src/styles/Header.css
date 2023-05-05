@@ -4,17 +4,7 @@
     align-items: center;
     justify-content: left;
     width: 100%;
-    min-height: 4rem;
+    min-height: 5rem;
     font-weight: 500;
-}
-
-.Header .logo {
-    font-size: 2.2rem;
-    margin: 0rem;
-    margin-bottom: 0.2rem;
-    padding: 0rem 1.4rem;
-}
-
-.Header .logo:hover {
-    cursor: pointer;
+    font-size: 1.8rem;
 }
