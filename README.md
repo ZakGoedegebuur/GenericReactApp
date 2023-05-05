@@ -1,4 +1,2 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 528edd3973f7207f38120d8c3d20043780f4d259
+Simple React App.
+Github pages will be set up soon.
