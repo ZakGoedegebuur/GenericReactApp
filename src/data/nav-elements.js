@@ -1,10 +1,8 @@
+import FirstModelsPage from "../pages/FirstModels.js"
+
 const pageData = { pages: [
-    { name: "MAPS", data: "maps lorem ipsum dipsum mipsum gypsum wipsum"},
-    { name: "GOOGLE", data: "google lorem ipsum dipsum mipsum gypsum wipsum" },
-    { name: "ABOUT", data: "about lorem ipsum dipsum mipsum gypsum wipsum" },
-    { name: "gmail", data: "gmail lorem ipsum dipsum mipsum gypsum wipsum" },
-    { name: "apps", data: "apps lorem ipsum dipsum mipsum gypsum wipsum" },
-    { name: "github", data: "github lorem ipsum dipsum mipsum gypsum wipsum" },
+    { section: "latest", title: "First Steps", date: "5 / 5 / 2023", data: <FirstModelsPage/> },
+    { section: "development", title: "First Steps", date: "5 / 5 / 2023", data: <FirstModelsPage/> },
 ]};
 
 export default pageData;

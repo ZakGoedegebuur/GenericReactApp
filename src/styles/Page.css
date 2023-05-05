@@ -1,3 +1,22 @@
 .page {
-  margin: 0rem 0rem;
+  max-width: 100%;
+  color: rgb(139, 158, 176);;
+}
+
+.page .title {
+  color: rgb(209, 230, 248);
+  font-weight: 400;
+  font-size: 4rem;
+  margin: 0rem;
+}
+
+.page .date {
+  color: rgb(80, 92, 107);
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0rem 0rem 2rem 0rem;
+}
+
+.page img {
+  max-width: 100%;
 }

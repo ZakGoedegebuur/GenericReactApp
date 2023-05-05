@@ -4,6 +4,12 @@ import "../styles/Page.css"
 
 export default function Page(props) {
   return (
-    <div className="page">{pageData.pages[props.page].data}</div>
+    <>
+      <div className="page">
+        <h1 className="title">{pageData.pages[props.page].title.toUpperCase()}</h1>
+        <h4 className="date">{pageData.pages[props.page].date.toUpperCase()}</h4>
+        {pageData.pages[props.page].data}
+      </div>
+    </>
   )
 }
