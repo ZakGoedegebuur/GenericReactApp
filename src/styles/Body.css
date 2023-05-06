@@ -1,9 +1,10 @@
 .Body {
   display: flex;
   flex-direction: column;
-  padding: 0rem 2% 30rem 2%;
-  margin-left: 12rem;
+  padding: 1.2rem 2rem 30rem 2rem;
+  margin: 5rem 0rem 0rem 12rem;
   width: 100%;
+  transition: all 0.15s;
 }
 
 @media only screen and (max-width: 50rem) {

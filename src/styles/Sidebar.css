@@ -10,13 +10,15 @@
   justify-content: top;
   align-items: center;
   width: 12rem;
-  box-shadow: 0rem 0px 0.6rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0rem 0rem 0.6rem rgba(0, 0, 0, 0.2);
+  transition: all 0.15s;
 }
 
 .Sidebar .icon {
-  margin: 2rem 2rem 0rem 2rem;
-  width: 60%;
+  margin: 3rem 2rem 0rem 2rem;
+  width: 50%;
   border-radius: 50%;
+  transition: all 0.15s;
 }
 
 .Sidebar .name {
@@ -33,7 +35,6 @@
 
   .Sidebar .icon {
     margin: 1rem;
-    width: 50%;
   }
 
   .Sidebar .name {

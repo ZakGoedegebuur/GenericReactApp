@@ -7,8 +7,13 @@ function NavElement(props) {
   let classes = "nav-element";
   classes += props.page === props.index ? " active" : "";
 
+  function navFunction() {
+    props.setPage(props.index);
+    window.scrollTo(0, 0);
+  }
+
   return (
-     <button onClick={() => props.setPage(props.index)} className={classes} key={props.section}>{props.section.toUpperCase()}</button> 
+     <button onClick={navFunction} className={classes} key={props.section}>{props.section.toUpperCase()}</button> 
   )
 }
 
