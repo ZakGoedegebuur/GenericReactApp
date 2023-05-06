@@ -1,18 +1,22 @@
 .Sidebar {
   display: flex;
+  position: fixed;
+  top: 0rem;
+  bottom: 0rem;
+  left: 0rem;
+  background-color: rgb(29, 36, 51);
+  z-index: 100;
   flex-direction: column;
   justify-content: top;
   align-items: center;
-  min-width: 12rem;
-  transition: all 0.25s;
+  width: 12rem;
   box-shadow: 0rem 0px 0.6rem rgba(0, 0, 0, 0.2);
 }
 
 .Sidebar .icon {
-  margin: 3rem 2rem 0rem 2rem;
-  width: 6rem;
+  margin: 2rem 2rem 0rem 2rem;
+  width: 60%;
   border-radius: 50%;
-  transition: all 0.25s;
 }
 
 .Sidebar .name {
@@ -22,7 +26,19 @@
 }
 
 @media only screen and (max-width: 50rem) {
-  .Sidebar {
-    display: none;
+  .Sidebar,
+  .sidebar-block {
+    width: 4rem;
+  }
+
+  .Sidebar .icon {
+    margin: 1rem;
+    width: 50%;
+  }
+
+  .Sidebar .name {
+    font-size: 0.7rem;
+    margin: 0rem 0rem;
   }
 }
+

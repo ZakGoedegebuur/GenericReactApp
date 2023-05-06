@@ -4,6 +4,12 @@
   font-size: 1rem;
 }
 
+@media screen and (min-width: 78rem) {
+  .page {
+    max-width: 70%;
+  }
+}
+
 .page .title {
   color: rgb(209, 230, 248);
   font-weight: 400;
