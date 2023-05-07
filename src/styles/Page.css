@@ -9,11 +9,10 @@
 
 .page .title {
   color: rgb(209, 230, 248);
-  line-height: 2.8rem;
   font-weight: 400;
   font-size: 4rem;
   padding: 0rem 0rem 1rem 0rem;
-  margin: 0rem;
+  margin: -0.8rem 0rem 0rem 0rem;
 }
 
 .page .date {

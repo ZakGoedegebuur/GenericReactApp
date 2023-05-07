@@ -1,2 +1,2 @@
 Simple React App.
-Github pages will be set up soon.
+Github pages has been set up.
