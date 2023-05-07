@@ -32,7 +32,7 @@ export default function Selector(props) {
       <div className="list">
         {data.sections[section].subsections.map((item, index) => {
           return <ListElement 
-          title={item.title} 
+          title={item.title.toUpperCase()} 
           date={item.date}
           index={index}
           func={() => setSubSection(index)} 

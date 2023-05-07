@@ -24,7 +24,6 @@
 .Selector .list {
   display: flex;
   flex-direction: column;
-  flex-shrink: 0;
   height: 21rem;
   overflow-y: scroll;
   align-items: left;
@@ -44,7 +43,7 @@
   color: rgb(113, 128, 142);
   border: none;
   cursor: pointer;
-  min-height: 2rem;
+  max-height: 3rem;
   transition: all 0.15s;
 }
 
