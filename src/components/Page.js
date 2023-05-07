@@ -3,6 +3,7 @@ import { sectionContext, subSectionContext } from "../Context";
 import data from "../data/page-data";
 import Selector from "./Selector";
 import "../styles/Page.css"
+import ImageDemo from "./ImageDemo";
 
 function CustomPage(props) {
 
@@ -22,7 +23,10 @@ export default function Page(props) {
   return (
     <div className="page">
       <CustomPage page={props.page}/>
-      <Selector/>
+      <div className="selector-images-container">
+        <Selector/>
+        <ImageDemo/>
+      </div>
     </div>
   )
 }

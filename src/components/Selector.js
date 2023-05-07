@@ -3,6 +3,24 @@ import "../styles/Selector.css";
 import data from "../data/page-data";
 import { sectionContext, subSectionContext } from "../Context";
 
+function ListElement(props) {
+
+  let classes = "ListElement";
+  const [subSection, setSubSection] = useContext(subSectionContext);
+  classes += props.index === subSection ? " active" : " inactive";
+  
+  console.log(props.index);
+
+  const func = props.index === subSection ? () => null : props.func;
+
+  return (
+    <button className={classes} onClick={func}>
+      <div className="listelement-name">{props.title}</div>
+      <div className="listelement-date">{props.date}</div>
+    </button>
+  );
+}
+
 export default function Selector(props) {
 
   const [section, setSection] = useContext(sectionContext);
@@ -13,9 +31,17 @@ export default function Selector(props) {
       <div className="header">
         <div className="title">SUBSECTIONS</div>
       </div>
-      {data.sections[section].subsections.map((item, index) => {
-        return <button onClick={() => setSubSection(index)} key={index}>{item.title}</button>
-      })}
+      <div className="list">
+        {data.sections[section].subsections.map((item, index) => {
+          return <ListElement 
+          title={item.title} 
+          date={item.date}
+          index={index}
+          func={() => setSubSection(index)} 
+          key={index}
+          />
+        })}
+      </div>
     </div>
   )
 }

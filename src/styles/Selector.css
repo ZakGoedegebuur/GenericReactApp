@@ -1,8 +1,8 @@
 .Selector {
-  min-width: 30%;
-  max-width: 40%;
-  background-color: rgb(24, 29, 40);
-  border-radius: 0.15rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-shadow: 0rem 0.1rem 0.6rem rgba(0, 0, 0, 0.2);
 }
 
 .Selector .header {
@@ -10,12 +10,56 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 5rem;
-  border-bottom: 1px solid rgb(80, 92, 107);
+  height: 3rem;
+  z-index: 10;
+  box-shadow: 0rem 0.5rem 0.6rem -0.6rem rgba(0, 0, 0, 0.2);
 }
 
 .Selector .header .title {
-  font-size: 2rem;
+  font-size: 1.4rem;
   padding: 0rem;
   margin: 0rem;
+}
+
+.Selector .list {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: 21rem;
+  overflow-y: scroll;
+  align-items: left;
+  justify-content: start;
+}
+
+.Selector .list .ListElement {
+  display: flex;
+  padding: 0.8rem 1rem;
+  flex-direction: row;
+  font-weight: 500;
+  text-align: left;
+  align-items: center;
+  font-size: 1rem;
+  background-color: #21293a;
+  color: rgb(113, 128, 142);
+  border: none;
+  cursor: pointer;
+  min-height: 2rem;
+  transition: all 0.15s;
+}
+
+.ListElement .listelement-date {
+  margin-left: auto;
+}
+
+.Selector .list .ListElement:hover {
+  background-color: #2d3a53;
+}
+
+.Selector .list .active {
+  background-color: #2d3a53;
+  color: rgb(209, 230, 248);
+}
+
+.Selector .list .active:hover {
+ cursor: default;
 }
