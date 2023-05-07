@@ -32,7 +32,7 @@ export default function Navbar(props) {
               data.sections.map((props, index) => {
               return <NavElement index={index} key={index}/>
             })}
-            <img src={icon}/>
+            <img src={icon} alt="icon"/>
         </div>
     );
 }
