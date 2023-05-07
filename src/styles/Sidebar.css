@@ -27,9 +27,8 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 50rem) {
-  .Sidebar,
-  .sidebar-block {
+@media only screen and (max-width: 900px) {
+  .Sidebar {
     width: 4rem;
   }
 

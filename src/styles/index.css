@@ -2,6 +2,12 @@ html {
   font-size: 100%;
 }
 
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 70%;
+  }
+}
+
 body {
   color: rgb(209, 230, 248);
   background-color: rgb(29, 36, 51);

@@ -18,7 +18,7 @@
   transition: all 0.15s;
 }
 
-@media only screen and (max-width: 50rem) {
+@media only screen and (max-width: 900px) {
     .Header {
         left: 4rem;
     }
