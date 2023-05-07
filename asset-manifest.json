@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/GenericReactApp/static/css/main.3d9db210.css",
+    "main.css": "/GenericReactApp/static/css/main.ab071524.css",
     "main.js": "/GenericReactApp/static/js/main.2aa167ee.js",
     "static/js/787.afce2aef.chunk.js": "/GenericReactApp/static/js/787.afce2aef.chunk.js",
     "static/media/rails.jpg": "/GenericReactApp/static/media/rails.5e65660eeb14194526bd.jpg",
     "index.html": "/GenericReactApp/index.html",
-    "main.3d9db210.css.map": "/GenericReactApp/static/css/main.3d9db210.css.map",
+    "main.ab071524.css.map": "/GenericReactApp/static/css/main.ab071524.css.map",
     "main.2aa167ee.js.map": "/GenericReactApp/static/js/main.2aa167ee.js.map",
     "787.afce2aef.chunk.js.map": "/GenericReactApp/static/js/787.afce2aef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d9db210.css",
+    "static/css/main.ab071524.css",
     "static/js/main.2aa167ee.js"
   ]
 }
