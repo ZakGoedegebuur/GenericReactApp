@@ -38,17 +38,24 @@
   font-weight: 500;
   text-align: left;
   align-items: center;
+  justify-content: space-between;
   font-size: 1rem;
   background-color: #21293a;
   color: rgb(113, 128, 142);
   border: none;
   cursor: pointer;
-  max-height: 3rem;
+  max-height: 2rem;
   transition: all 0.15s;
 }
 
+.ListElement .listelement-title {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
 .ListElement .listelement-date {
-  margin-left: auto;
+  white-space: nowrap;
 }
 
 .Selector .list .ListElement:hover {

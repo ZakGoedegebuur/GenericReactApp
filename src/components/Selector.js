@@ -13,7 +13,7 @@ function ListElement(props) {
 
   return (
     <button className={classes} onClick={func}>
-      <div className="listelement-name">{props.title}</div>
+      <div className="listelement-title">{props.title}</div>
       <div className="listelement-date">{props.date}</div>
     </button>
   );
