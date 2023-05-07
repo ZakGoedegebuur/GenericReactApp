@@ -2,9 +2,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: top;
   margin: 5rem 0rem 0rem 0rem;
   padding: 2rem 1.8rem 0rem 1.8rem;
   gap: 1.8rem;
+  width: 80%;
   transition: all 0.15s;
 }
 
@@ -19,4 +21,10 @@
 .return-to-top:hover {
   color: rgb(209, 230, 248);
   cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .Body {
+    width: calc(100% - 0.5rem);
+  }
 }
