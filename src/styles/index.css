@@ -10,7 +10,6 @@ html {
 
 body {
   color: rgb(209, 230, 248);
-  transition: all 0.15s;
   background-color: rgb(29, 36, 51);
   margin: 0;
   font-weight: 400;

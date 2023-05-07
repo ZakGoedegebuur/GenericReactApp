@@ -1,15 +1,20 @@
-import React from "react";
+import React, { useContext } from "react";
 import "../styles/Selector.css";
-import pageData from "../data/page-data";
+import data from "../data/page-data";
+import { sectionContext, subSectionContext } from "../Context";
 
 export default function Selector(props) {
+
+  const [section, setSection] = useContext(sectionContext);
+  const [subSection, setSubSection] = useContext(subSectionContext);
+
   return (
     <div className="Selector">
       <div className="header">
-        <div className="title">POSTS</div>
+        <div className="title">SUBSECTIONS</div>
       </div>
-      {pageData.pages.map(item => {
-        return <div>hola</div>
+      {data.sections[section].subsections.map((item, index) => {
+        return <button onClick={() => setSubSection(index)} key={index}>{item.title}</button>
       })}
     </div>
   )

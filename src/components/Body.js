@@ -15,8 +15,8 @@ function ReturnToTop() {
 export default function Body(props) {
   return (
     <div className="Body">
-      <Header setPage={props.setPage} page={props.page}/>
-      <Page page={props.page}/>
+      <Header/>
+      <Page/>
       <ReturnToTop/>
       <Footer/>
     </div>
