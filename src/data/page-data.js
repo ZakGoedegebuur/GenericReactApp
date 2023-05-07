@@ -1,4 +1,4 @@
-import FirstModelsPage from "../pages/FirstModels.js"
+import FirstModelsPage from "./pages/FirstModels.js"
 
 const pageData = { pages: [
     { section: "latest", title: "page one", date: "5 / 5 / 2023", data: <FirstModelsPage/> },

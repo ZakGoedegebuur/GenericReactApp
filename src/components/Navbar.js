@@ -1,6 +1,7 @@
 import React from "react"
 import "../styles/Navbar.css"
-import data from "../data/nav-elements.js"
+import icon from "../images/rails.jpg"
+import data from "../data/page-data.js"
 
 function NavElement(props) {
 
@@ -23,6 +24,7 @@ export default function Navbar(props) {
             {data.pages.map((item, index) => {
               return <NavElement setPage={props.setPage} page={props.page} index={index} section={item.section} key={item.section}/>
             })}
+            <img src={icon}/>
         </div>
     )
 }

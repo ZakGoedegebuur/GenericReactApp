@@ -1,4 +1,5 @@
 import "../styles/Header.css"
+import icon from "../images/rails.jpg"
 import Navbar from "./Navbar";
 
 export default function Header(props) {

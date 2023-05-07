@@ -3,16 +3,18 @@
   flex-direction: row;
   color: rgb(139, 158, 176);
   font-size: 1rem;
-  gap: 1.8rem;
+  gap: 5rem;
   transition: all 0.15s;
+  width: 80%;
 }
 
 .page .title {
   color: rgb(209, 230, 248);
   font-weight: 400;
   font-size: 4rem;
+  line-height: 80%;
   padding: 0rem 0rem 1rem 0rem;
-  margin: -0.8rem 0rem 0rem 0rem;
+  margin: -0.2rem 0rem 0rem 0rem;
 }
 
 .page .date {
@@ -24,4 +26,5 @@
 
 .page img {
   width: 100%;
+  border-radius: 0.15rem;
 }

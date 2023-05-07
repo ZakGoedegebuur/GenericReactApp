@@ -10,7 +10,7 @@ export default function Entry()
         Here is an image of one of the first models created for the simulator. 
         Visually it is loosely based off the Rapier SAM but will almost certainly be used for air to air engagements as well.
       </p>
-      <SingleImage image={snowyCastleAddress} caption="WOO YEAH BABY THE CAPTION SYSTEM IS WORKING!!!" captionPos="top-left"/>
+      <SingleImage image={snowyCastleAddress} caption="One of the most captionistic captions since they invented adding captions to things" captionPos="top-left"/>
       <p>
         The level of detail of the model is an attempt to find a balance between a high level of detail and a high level of performance. 
         This may be changed in further revisions, but for now I'm quite happy with it.

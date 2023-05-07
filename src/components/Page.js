@@ -1,11 +1,11 @@
 import React from "react";
-import pageData from "../data/nav-elements";
-import Selector from "./Selection";
+import pageData from "../data/page-data";
+import Selector from "./Selector";
 import "../styles/Page.css"
 
 function CustomPage(props) {
   return (
-    <div>
+    <div className="CustomPage">
       <h1 className="title">{pageData.pages[props.page].title.toUpperCase()}</h1>
       <h4 className="date">{pageData.pages[props.page].date.toUpperCase()}</h4>
       {pageData.pages[props.page].data}

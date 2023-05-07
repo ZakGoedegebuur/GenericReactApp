@@ -38,3 +38,8 @@
 .Navbar .nav-element:hover {
   cursor: pointer;
 }
+
+.Navbar img {
+  height: 2rem;
+  margin-left: auto;
+}
