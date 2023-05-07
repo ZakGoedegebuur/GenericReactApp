@@ -9,8 +9,6 @@ function ListElement(props) {
   const [subSection, setSubSection] = useContext(subSectionContext);
   classes += props.index === subSection ? " active" : " inactive";
   
-  console.log(props.index);
-
   const func = props.index === subSection ? () => null : props.func;
 
   return (
