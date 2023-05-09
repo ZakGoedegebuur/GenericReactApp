@@ -7,9 +7,8 @@ function App() {
 
   const [section, setSection] = useState(0);
   const [subsection, setSubSection] = useState(0);
-  const [stage, setStage] = useState("home");
+  const [stage, setStage] = useState("selection");
 
-  //console.log(section, subsection);
   return (
     <sectionContext.Provider value={[section, setSection]}>
       <subSectionContext.Provider value={[subsection, setSubSection]}>
