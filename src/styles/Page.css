@@ -1,14 +1,13 @@
-.page {
+.Page {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   color: rgb(139, 158, 176);
   font-size: 1rem;
-  gap: 5rem;
   transition: all 0.15s;
   width: 100%;
 }
 
-.page .title {
+.Page .title {
   color: rgb(209, 230, 248);
   font-weight: 400;
   font-size: 4rem;
@@ -17,28 +16,14 @@
   margin: -0.2rem 0rem 0rem 0rem;
 }
 
-.page .date {
+.Page .date {
   color: rgb(80, 92, 107);
   font-size: 1.2rem;
   font-weight: 500;
   margin: 0rem 0rem 2rem 0rem;
 }
 
-.page img {
+.Page img {
   width: 100%;
   border-radius: 0.15rem;
-}
-
-.selector-images-container {
-  display: flex;
-  flex-direction: column;
-  min-width: 35%;
-  max-width: 45%;
-  gap: 1.8rem;
-}
-
-@media screen and (max-width: 900px) {
-  .page {
-    gap: 1.8rem;
-  }
 }

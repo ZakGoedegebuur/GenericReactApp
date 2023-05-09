@@ -1,0 +1,8 @@
+.development-selector {
+  display: flex;
+  flex-direction: column;
+}
+
+.development-selector-element {
+  background-color: green;
+}

@@ -5,9 +5,9 @@ import { sectionContext, subSectionContext, stageContext } from './Context';
 
 function App() {
 
-  const [section, setSection] = useState(0);
+  const [section, setSection] = useState("development");
   const [subsection, setSubSection] = useState(0);
-  const [stage, setStage] = useState("selection");
+  const [stage, setStage] = useState("selector");
 
   return (
     <sectionContext.Provider value={[section, setSection]}>

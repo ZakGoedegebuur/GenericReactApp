@@ -1,9 +1,10 @@
 import React, { useContext } from "react";
 import Header from '../components/Header.js';
-import Page from '../components/Page.js';
 import Footer from "./Footer.js";
 import { sectionContext, stageContext, subSectionContext } from "../Context.js";
 import "../styles/Body.css";
+import Development from "./Development.js";
+import ImagesPage from "./Images.js";
 
 function ReturnToTop() {
   return (
@@ -20,40 +21,9 @@ function Main() {
 
   console.log({section, subsection, stage});
 
-  // Which stage
-  switch(stage) {
-    case "latest":
-      return (
-        <>
-          <Page/>
-          <ReturnToTop/>
-        </>
-        )
-    case "selection":
-        // Which selector 
-      switch(section) {
-        case 1:
-
-        switch(subsection) {
-          default:
-            setStage("latest");
-            break;
-        }
-
-        default:
-          setStage("latest")
-          break;
-      }
-    
-    case "notfound":
-    default:
-      return (
-        <>
-          <h1 className="title">Error 404</h1>
-          <h2>Page not found :(</h2>
-        </>
-      )
-  }
+  if (section === "development" && stage === "selector") return <Development/>
+  else if (section === "images" && stage === "page") return <ImagesPage/>
+  else return <><h1>Error 404</h1><h2>Page not found :(</h2></>
 }
 
 export default function Body(props) {
@@ -61,6 +31,7 @@ export default function Body(props) {
     <div className="Body">
       <Header/>
       <Main/>
+      <ReturnToTop/>
       <Footer/>
     </div>
     )
