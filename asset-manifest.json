@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/GenericReactApp/static/css/main.ab85f1b2.css",
-    "main.js": "/GenericReactApp/static/js/main.cce43547.js",
+    "main.css": "/GenericReactApp/static/css/main.3bc0f75a.css",
+    "main.js": "/GenericReactApp/static/js/main.c39de903.js",
     "static/js/787.afce2aef.chunk.js": "/GenericReactApp/static/js/787.afce2aef.chunk.js",
     "static/media/cell_shading_test_1.png": "/GenericReactApp/static/media/cell_shading_test_1.5c27071942e67613629e.png",
     "static/media/rails.jpg": "/GenericReactApp/static/media/rails.5e65660eeb14194526bd.jpg",
+    "static/media/ms1_wireframe.png": "/GenericReactApp/static/media/ms1_wireframe.f9fdff7b68298008f844.png",
     "index.html": "/GenericReactApp/index.html",
-    "main.ab85f1b2.css.map": "/GenericReactApp/static/css/main.ab85f1b2.css.map",
-    "main.cce43547.js.map": "/GenericReactApp/static/js/main.cce43547.js.map",
+    "main.3bc0f75a.css.map": "/GenericReactApp/static/css/main.3bc0f75a.css.map",
+    "main.c39de903.js.map": "/GenericReactApp/static/js/main.c39de903.js.map",
     "787.afce2aef.chunk.js.map": "/GenericReactApp/static/js/787.afce2aef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab85f1b2.css",
-    "static/js/main.cce43547.js"
+    "static/css/main.3bc0f75a.css",
+    "static/js/main.c39de903.js"
   ]
 }
