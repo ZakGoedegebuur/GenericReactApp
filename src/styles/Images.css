@@ -13,7 +13,10 @@
   border-radius: 0.2rem;
   overflow: hidden;
   transition: all 0.15s;
-  height: 16rem;
+  max-height: 16rem;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .image-grid-image-container:hover {
@@ -21,5 +24,32 @@
 }
 
 .image-grid-image {
+  width: 100%;
+}
+
+.image-display-background {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  border: none;
+  z-index: 200;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.image-display {
+  position: fixed;
+  top: 10%;
+  bottom: 10%;
+  left: 10%;
+  right: 10%;
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.image-display img {
   width: 100%;
 }

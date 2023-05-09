@@ -1,8 +1,36 @@
 .development-selector {
   display: flex;
   flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
 }
 
 .development-selector-element {
-  background-color: green;
+  display: flex;
+  padding: 0.8rem;
+  background-color: rgb(22, 28, 34);
+  color: rgb(154, 175, 194);
+  border: none;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.development-selector-element-major-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 0.3rem;
+}
+
+.development-selector-element-title {
+  margin: 0rem;
+}
+
+.development-selector-element-date {
+  margin: 0.3rem 0rem 0.3rem 0rem;
+}
+
+.development-selector-element:hover {
+  color: rgb(209, 230, 248);
+  background-color: rgb(15, 19, 23);
 }

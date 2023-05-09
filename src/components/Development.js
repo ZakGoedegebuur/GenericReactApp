@@ -10,8 +10,10 @@ function DevPageButton(props) {
   
   return (
     <button className="development-selector-element" onClick={() => setSubSection(props.index)}>
-      <h2>{props.title.toUpperCase()}</h2>
-      <h4>{props.date}</h4>
+      <div className="development-selector-element-major-info">
+        <h2 className="development-selector-element-title">{props.title.toUpperCase()}</h2>
+        <h4 className="development-selector-element-date">{props.date}</h4>
+      </div>
     </button>
   );
 }
