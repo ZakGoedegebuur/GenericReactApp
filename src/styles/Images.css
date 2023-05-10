@@ -13,7 +13,7 @@
   border-radius: 0.2rem;
   overflow: hidden;
   transition: all 0.15s;
-  max-height: 16rem;
+  aspect-ratio: 16 / 9;
   background: none;
   border: none;
   cursor: pointer;

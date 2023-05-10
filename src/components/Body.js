@@ -17,12 +17,11 @@ function ReturnToTop() {
 function Main() {
   const [section, setSection] = useContext(sectionContext);
   const [subsection, setSubSection] = useContext(subSectionContext);
-  const [stage, setStage] = useContext(stageContext);
 
-  console.log({section, subsection, stage});
+  console.log({section, subsection});
 
-  if (section === "development" && stage === "selector") return <Development/>
-  else if (section === "images" && stage === "page") return <ImagesPage/>
+  if (section === "development") return <Development/>
+  else if (section === "images") return <ImagesPage/>
   else return <><h1>Error 404</h1><h2>Page not found :(</h2></>
 }
 

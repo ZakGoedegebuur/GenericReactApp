@@ -11,9 +11,10 @@ function DevPageButton(props) {
   return (
     <button className="development-selector-element" onClick={() => setSubSection(props.index)}>
       <div className="development-selector-element-major-info">
-        <h2 className="development-selector-element-title">{props.title.toUpperCase()}</h2>
-        <h4 className="development-selector-element-date">{props.date}</h4>
+        <h2 className="development-selector-element-title">{props.item.title.toUpperCase()}</h2>
+        <h4 className="development-selector-element-date">{props.item.date}</h4>
       </div>
+      <div className="development-selector-element-description">{props.item.description}</div>
     </button>
   );
 }
@@ -26,7 +27,7 @@ export default function Development() {
       <div className="development-selector">
         {developmentData.pages.map((item, index) => {
           return (
-            <DevPageButton title={item.title} date={item.date} jsx={item.jsx} index={index} key={index}/>
+            <DevPageButton item={item} index={index} key={index}/>
           );
         })}
       </div>

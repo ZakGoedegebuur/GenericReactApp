@@ -1,6 +1,7 @@
 .SingleImage {
   width: 100%;
   position: relative;
+  margin: 0.5rem 0rem;
 }
 
 .SingleImage .caption {
